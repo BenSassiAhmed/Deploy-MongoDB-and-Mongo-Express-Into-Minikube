@@ -15,3 +15,7 @@ kubectl get pod -o wide  <br />
 kubectl get service    <br /> 
 kubectl get secret <br /> 
 kubectl get all | grep mongodb   <br /> 
+
+## 3/give a URL to external service in minikube <br /> 
+
+minikube service mongo-express-service
